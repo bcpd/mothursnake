@@ -15,7 +15,6 @@ Modified from the Schloss's lab mothur snakemake, this repository can be used to
 * MacOSX or Linux operating system.
 * Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
 * Have paired end sequencing data.
-> **NOTE:** The workflow does not assume you are using a mock community. This functionality should be added for error estimation.
 >
 > <br />
 
@@ -75,7 +74,7 @@ Things to change (everything else can/should be left as is):
 
 <br />
 
-**6.** Test the workflow to make sure everything looks good. This will print a list of the commands to be executed without running them and will error if something isn't set properly.
+**6.** Test the workflow to make sure everything looks good. This will print a list of the commands to be executed without running them ("dry run") and will error if something isn't set properly.
 ```
 snakemake -np
 ```
@@ -97,3 +96,7 @@ snakemake --use-conda
 ```
 
 <br />
+
+#### Additional features
+* Incorporate reporting functionality. For an example, see [ARMOR](https://github.com/csoneson/ARMOR).
+* Expand to V1-V3 and ITS amplicons.

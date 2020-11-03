@@ -98,5 +98,5 @@ snakemake --use-conda
 <br />
 
 #### Additional features
-* Incorporate reporting functionality. For an example, see [ARMOR]( https://github.com/csoneson/ARMOR
-* Expand to V1-V3 and ITS amplicons
+* Incorporate reporting functionality. For an example, see [ARMOR](https://github.com/csoneson/ARMOR).
+* Expand to V1-V3 and ITS amplicons.

@@ -22,7 +22,7 @@ Modified from the Schloss's lab mothur snakemake, this repository can be used to
 
 **1.** Clone this repository and move into the project directory.
 ```
-git clone https://github.com/
+git clone https://github.com/MicrobiomeInsights/mothursnake.git
 cd mothursnake
 ```
 

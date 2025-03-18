@@ -1,4 +1,4 @@
-## Mothur 16S V4 Analysis Pipeline
+## Mothur 16S rRNA gene (V4 region) analysis pipeline
 
 This repository can be used to generate common output files from mothur (shared and consensus taxonomy, alpha/beta diversity, taxonomic classification, and ordinations). The workflow is designed to work with [Snakemake](https://snakemake.readthedocs.io/en/stable/) and [Conda](https://docs.conda.io/en/latest/). To understand what it does and why, please go to [Mothur wiki](https://www.mothur.org/wiki/MiSeq_SOP). It currently works for V4 amplicons only, but it can be adapted to work with other hypervariable regions.
 

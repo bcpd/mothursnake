@@ -1,6 +1,6 @@
 ## Mothur 16S V4 Analysis Pipeline
 
-Modified from the Schloss's lab mothur snakemake, this repository can be used to generate common output files from mothur (shared and consensus taxonomy, alpha/beta diversity, taxonomic classification, and ordinations). The workflow is designed to work with [Snakemake](https://snakemake.readthedocs.io/en/stable/) and [Conda](https://docs.conda.io/en/latest/) with minimal intervention by the user. If you want to know more about what the steps are and why we use them, you can read up on them at the [Mothur wiki](https://www.mothur.org/wiki/MiSeq_SOP). It currently works for V4 amplicons only.
+This repository can be used to generate common output files from mothur (shared and consensus taxonomy, alpha/beta diversity, taxonomic classification, and ordinations). The workflow is designed to work with [Snakemake](https://snakemake.readthedocs.io/en/stable/) and [Conda](https://docs.conda.io/en/latest/). To understand what it does and why, please go to [Mothur wiki](https://www.mothur.org/wiki/MiSeq_SOP). It currently works for V4 amplicons only, but it can be adapted to work with other hypervariable regions.
 
 ### What the pipeline does:
 * Downloads reference databases (SILVA and RDP).
